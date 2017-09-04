@@ -67,12 +67,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                     <!---->
                     <div class="cart box_1">
-                        <a href="checkout.html">
-                            <h3> <div class="total">
-                                    <span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
-                                <img src="images/cart.png" alt=""/></h3>
-                        </a>
-                        <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+                        {{--<a href="checkout.html">--}}
+                            {{--<h3> <div class="total">--}}
+                                    {{--<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>--}}
+                                {{--<img src="images/cart.png" alt=""/></h3>--}}
+                        {{--</a>--}}
+                        {{--<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>--}}
                         <div class="clearfix"> </div>
                     </div>
 
@@ -92,7 +92,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
 
         <div class="now">
-            <a class="morebtn" href="{{ route('products.index') }}">Explore</a>
+            <a class="morebtn" href="{{ route('products.index') }}">Explorar</a>
             {{--<a class="morebtn at-in" href="single.html">Shop Now</a>--}}
             <div class="clearfix"> </div>
         </div>
@@ -753,7 +753,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
         </div>
         <div class="clearfix"> </div>
-        <p class="footer-class">© 2015 Amberegul All Rights Reserved | Template by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+        <p class="footer-class">© 2017 Herralandia All Rights Reserved  </p>
     </div>
 </div>
 <!---->
